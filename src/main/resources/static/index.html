@@ -2,10 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Projects</title>
     <link rel="stylesheet" href="general.css" />
 </head>
 <body>
-    <h1>Testing</h1>
+    <button class="home-btn">🏠</button>
+    <button class="help-btn">?</button>
+
+    <div class="work-area">
+        <div id="title-text">
+            <h1>Projects</h1>
+            <span id="status" style="cursor: pointer;">Status: <span id="status-text">Ongoing</span></span>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('status').addEventListener('click', function() {
+            var statusText = document.getElementById('status-text');
+            statusText.textContent = statusText.textContent === 'Ongoing' ? 'Completed' : 'Ongoing';
+        });
+    </script>
 </body>
 </html>
