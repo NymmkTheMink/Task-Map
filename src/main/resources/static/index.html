@@ -6,8 +6,8 @@
     <link rel="stylesheet" href="general.css" />
 </head>
 <body>
-    <button class="home-btn">🏠</button>
-    <button class="help-btn">?</button>
+    <button onclick="toHome()" class="home-btn">🏠</button>
+    <button onclick="helpPanel()" class="help-btn">?</button>
 
     <div class="work-area">
         <div id="title-text">
@@ -16,11 +16,6 @@
         </div>
     </div>
 
-    <script>
-        document.getElementById('status').addEventListener('click', function() {
-            var statusText = document.getElementById('status-text');
-            statusText.textContent = statusText.textContent === 'Ongoing' ? 'Completed' : 'Ongoing';
-        });
-    </script>
+    <script src="index.js"></script>
 </body>
 </html>
