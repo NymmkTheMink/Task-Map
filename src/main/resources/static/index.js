@@ -10,3 +10,7 @@ function toHome() {
 function helpPanel(){
 
 }
+
+function downloadManuel(){
+
+}
