@@ -10,18 +10,19 @@
     <button onclick="helpPanel()" class="help-btn">?</button>
 
     <div class="work-area">
-        <div id="title-text">
+        <div class="title-text">
             <h1>Projects</h1>
             <span id="status" style="cursor: pointer;">Status: <span id="status-text">Ongoing</span></span>
         </div>
-    </div>
 
-    <template class="help-panel">
-        <div class="help-panel">
-            <p>Do you want to download the user manual?</p>
-            <button onclick="downloadManual()">Download</button>
+        <div id="ongoing-projects">
         </div>
-    </template>
+
+        <div id="completed-projects">
+        </div>
+
+        <button class="create-btn" onclick="createProject()">New project</button>
+    </div>
 
     <script src="index.js"></script>
 </body>
