@@ -6,6 +6,45 @@
     <link rel="stylesheet" href="panel-styles.css">
 </head>
 <body>
+    <form class="panel">
+        <h1>Create New Task</h1>
+        <div id="importance-container">
+            <div class="input-field">
+                <label for="due">Due:</label>
+                <input type="date" id="due" name="due">
+            </div>
+            <div class="input-field">
+                <label for="priority">Priority:</label>
+                <input type="number" id="priority" name="priority">
+            </div>
+        </div>
 
+        <div class="demand-container">
+            <div class="input-field">
+                <label for="difficulty">Time Demand:</label>
+                <select id="difficulty" name="time">
+                    <option value="easy">Easy</option>
+                    <option value="normal">Normal</option>
+                    <option value="hard">Hard</option>
+                </select>
+            </div>
+            <div class="input-field">
+                <label for="time">Time Demand:</label>
+                <select id="time" name="time">
+                    <option value="low">Low</option>
+                    <option value="medium">Medium</option>
+                    <option value="high">High</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="identifier-container">
+            <div class="input-field">
+                <label for="name">Task Name:</label>
+                <input type="text" id="name" name="name">
+            </div>
+        </div>
+        <button class="confirm-btn" type="submit">Create Project</button>
+    </form>
 </body>
 </html>
