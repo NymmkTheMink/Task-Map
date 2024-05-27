@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: monospace, sans-serif;
 }
 
 .help-btn {
@@ -43,7 +43,7 @@ body {
     text-decoration: underline;
 }
 
-#title-text {
+.title-text {
     color: #f7f7f7;
     display: flex;
     flex-direction: row;
@@ -51,3 +51,49 @@ body {
     justify-content: space-evenly;
 
 }
+
+table {
+    width: 100%;
+    background-color: black;
+}
+
+table tr:nth-child(even) {
+    background-color: #FFE5BF;
+}
+
+table tr, table th {
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+}
+
+table tr:nth-child(odd) {
+    background-color: #CFD8D7;
+}
+
+table th, table td {
+    color: #453831;
+}
+
+.create-btn {
+    background-color: #000000;
+    color: #f7f7f7;
+    border-style: none;
+    border-radius: 10px;
+    padding: 0.5rem;
+    font-size: 1em;
+    position: absolute;
+    bottom: 5%; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.create-btn:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a box shadow */
+    transform: translateX(-50%) scale(1.1); /* Increase the size of the button and keep it centered */
+    font-size: 1.1em; /* Increase the size of the text */
+}
+
+button {
+    font-family: monospace, sans-serif;
+}
+
