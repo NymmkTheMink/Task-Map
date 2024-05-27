@@ -1,0 +1,53 @@
+body {
+    font-family: monospace, sans-serif;
+}
+
+h1 {
+    color: #f7f7f7;
+}
+
+.confirm-btn {
+    background-color: #048A14;
+    color: #f7f7f7;
+    border-style: none;
+    border-radius: 10px;
+    padding: 0.5rem;
+    font-size: 1em;
+    margin: 0.25rem; /* Decrease the margin */
+}
+
+.confirm-btn:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Add a box shadow */
+    transform: scale(1.1); /* Increase the size of the button */
+    font-size: 1.1em; /* Increase the size of the text */
+    margin: 0.2rem; /* Decrease the margin */
+}
+
+button {
+    font-family: monospace, sans-serif;
+}
+
+.panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    border-radius: 20px;
+    padding: 1rem;
+    margin: 1rem;
+    width: fit-content;
+}
+
+.input-field {
+    color: #f7f7f7;
+    border-style: none;
+    padding: 0.5rem;
+    font-size: 1em;
+    margin: 0.5rem;
+}
+
+input {
+    font-family: monospace, sans-serif;
+    padding: 0.25rem;
+}
